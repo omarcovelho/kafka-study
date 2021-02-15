@@ -6,7 +6,7 @@
 
     <groupId>br.com.omarcovelho</groupId>
     <artifactId>streams-starter-project</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
 
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.apache.kafka/kafka-streams -->
@@ -49,7 +49,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>com.github.simplesteph.udemy.kafka.streams.WordCountApp</mainClass>
+                            <mainClass>br.com.omarcovelho.streamsstarterproject.WordCountApp</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
