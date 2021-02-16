@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="271b25e1-6883-49c9-a4ff-818eca3bf614" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/omarcovelho/streamsstarterproject/WordCountApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/word-count.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="9decabff-1fe8-41ec-86fc-655d6ccd039b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/favourite-color/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favourite-color/favourite-color.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favourite-color/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favourite-color/src/main/java/br/com/omarcovelho/kafkastudy/favouritecolor/FavouriteColorApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/word-count-app/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/word-count-app/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/word-count-app/word-count.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/word-count-app/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/omarcovelho/streamsstarterproject/WordCountApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/word-count-app/src/main/java/br/com/omarcovelho/kafkastudy/wordcountapp/WordCountApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/favourite-color/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/word-count.sh" beforeDir="false" afterPath="$PROJECT_DIR$/favourite-color/favourite-colour.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/streamsstarterproject.iml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,22 +38,31 @@
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
-        <option name="downloadDocsAutomatically" value="true" />
-        <option name="downloadSourcesAutomatically" value="true" />
         <option name="importAutomatically" value="true" />
-        <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1oWMAYuOlk9E1P3SUlsF485Prwg" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1oX9c07F0Lkdcqd8WJfgsgoGlzk" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/favourite-color" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/word-count-app" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/favourite-color" />
+      <recent name="$PROJECT_DIR$/favourite-color/src/main/resources" />
+      <recent name="$PROJECT_DIR$/word-count-app/src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -59,12 +77,12 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="WordCountApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.omarcovelho.streamsstarterproject.WordCountApp" />
-      <module name="streamsstarterproject" />
+    <configuration name="FavouriteColorApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.omarcovelho.kafkastudy.favouritecolor.FavouriteColorApp" />
+      <module name="favourite-color" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.omarcovelho.streamsstarterproject.*" />
+          <option name="PATTERN" value="br.com.omarcovelho.kafkastudy.favouritecolor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,30 +92,20 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WordCountApp" />
+        <item itemvalue="Application.FavouriteColorApp" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="allServicesViewState">
-      <serviceView>
-        <treeState>
-          <expand />
-          <select />
-        </treeState>
-      </serviceView>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="271b25e1-6883-49c9-a4ff-818eca3bf614" name="Default Changelist" comment="" />
-      <created>1613397750574</created>
+      <changelist id="9decabff-1fe8-41ec-86fc-655d6ccd039b" name="Default Changelist" comment="" />
+      <created>1613422144074</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1613397750574</updated>
+      <updated>1613422144074</updated>
     </task>
     <servers />
   </component>
@@ -111,5 +119,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

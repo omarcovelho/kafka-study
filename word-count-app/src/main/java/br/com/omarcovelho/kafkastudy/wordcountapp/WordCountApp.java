@@ -4,7 +4,7 @@
  * Copyright (c) 2021, Embraer. All rights reserved. Embraer S/A
  * proprietary/confidential. Use is subject to license terms.
  */
-package br.com.omarcovelho.streamsstarterproject;
+package br.com.omarcovelho.kafkastudy.wordcountapp;
 
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.common.serialization.Serdes;
@@ -14,7 +14,6 @@ import org.apache.kafka.streams.StreamsConfig;
 import org.apache.kafka.streams.kstream.KStream;
 import org.apache.kafka.streams.kstream.KTable;
 import org.apache.kafka.streams.kstream.Materialized;
-import org.apache.kafka.streams.kstream.Named;
 
 import java.util.Arrays;
 import java.util.Properties;
